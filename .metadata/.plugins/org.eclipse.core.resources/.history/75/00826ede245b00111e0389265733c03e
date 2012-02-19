@@ -1,0 +1,24 @@
+package lib.mediador.com;
+
+import java.util.List;
+
+public class ecl {
+
+	private List<tabela> tabelas;
+	
+	public ecl(){
+		
+	}
+
+	public List<tabela> getTabelas() {
+		return tabelas;
+	}
+
+	public void setTabelas(List<tabela> tabelas) {
+		this.tabelas = tabelas;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+package lib.mediador.com;
+
+public class ecg {
+	
+	ecg(){
+		
+	}
+	
+	
+}

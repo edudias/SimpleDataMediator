@@ -1,0 +1,10 @@
+package reescrita.mediador.com;
+
+
+import classes.mediador.com.*;
+
+public class reescrita {
+
+	ecg ECG = new ecg();
+	
+}

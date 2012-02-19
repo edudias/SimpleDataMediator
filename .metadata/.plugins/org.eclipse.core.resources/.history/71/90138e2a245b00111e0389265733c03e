@@ -1,0 +1,29 @@
+package lib.mediador.com;
+
+import java.util.List;
+
+public class tabela {
+
+	private String nomeTabela;
+	private List<campoTabela> camposTabela;
+	
+	
+	public String getNomeTabela() {
+		return nomeTabela;
+	}
+	
+	public void setNomeTabela(String nomeTabela) {
+		this.nomeTabela = nomeTabela;
+	}
+	
+	public List<campoTabela> getCamposTabela() {
+		return camposTabela;
+	}
+	
+	public void setCamposTabela(List<campoTabela> camposTabela) {
+		this.camposTabela = camposTabela;
+	}
+	
+	
+	
+}

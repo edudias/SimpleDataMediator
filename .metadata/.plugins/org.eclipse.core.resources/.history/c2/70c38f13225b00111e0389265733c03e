@@ -1,0 +1,25 @@
+package lib.mediador.com;
+
+public class tipoDado {
+
+	private String nomeTipoDado;
+	
+	public tipoDado() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public tipoDado(String nomeTipoDado) {
+		this.nomeTipoDado = nomeTipoDado;
+	}
+	
+	public String getNomeTipoDado(){
+		return this.nomeTipoDado;
+	}
+
+	public void setNomeTipoDado(String nomeTipoDado){
+		this.nomeTipoDado = nomeTipoDado;
+		in
+	}	
+}
+
+
