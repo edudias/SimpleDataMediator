@@ -1,0 +1,31 @@
+package com.mediador.sqlparse;
+
+import gudusoft.gsqlparser.EDbVendor;
+import gudusoft.gsqlparser.TGSqlParser;
+
+
+public class sqlparse {
+
+	public static String sqlStatement;
+	public static EDbVendor vendor;
+	public static String error;
+	
+	private static TGSqlParser parser = new TGSqlParser(vendor.dbvmssql);
+	
+	
+	static public boolean checkSQL(){
+		parser.sqltext = sqlStatement;
+		int i = parser.parse();
+		if (i != 0){			
+			error = parser.getErrormessage().toString();
+			return false;
+		}
+		return true;
+		
+		
+	}
+	
+	
+	
+
+}
