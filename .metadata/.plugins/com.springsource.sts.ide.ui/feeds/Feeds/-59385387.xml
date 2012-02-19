@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.springsource.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SpringSource.org</title>
+ <link>http://www.springsource.org</link>
+ <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
+ <language>en</language>
+<item>
+ <title>Spring Framework 3.1.1 Released</title>
+ <link>http://www.springsource.org/node/3476</link>
+ <description>&lt;p&gt;The first maintenance release in the Spring 3.1.x line is now available via Maven Central, the &lt;a href=&quot;http://repo.springsource.org/release&quot;&gt;SpringSource repository&lt;/a&gt;, or for direct download from our &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Framework&amp;amp;version=3.1.1.RELEASE&quot;&gt;community download page&lt;/a&gt;.  This release includes many &lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10000&amp;amp;version=12706&quot;&gt;important bugfixes and minor improvements&lt;/a&gt; and is a recommended upgrade.&lt;/p&gt;
+&lt;p&gt;Cheers!&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Framework&amp;amp;version=3.1.7.RELEASE&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring/docs/3.1.1.RELEASE/spring-framework-reference/html/&quot;&gt;Documentation&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring/docs/3.1.1.RELEASE/javadoc-api/&quot;&gt;Javadoc API&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring/docs/3.1.1.RELEASE/changelog.txt&quot;&gt;Change Log&lt;/a&gt; | &lt;a href=&quot;http://jira.springframework.org/browse/SPR&quot;&gt;JIRA&lt;/a&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3476#comments</comments>
+ <pubDate>Fri, 17 Feb 2012 07:31:34 +0000</pubDate>
+ <dc:creator>Chris Beams</dc:creator>
+ <guid isPermaLink="false">3476 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Video: SpringOne 2GX - Identity Management with Spring Security</title>
+ <link>http://www.springsource.org/node/3475</link>
+ <description>&lt;p&gt; 
+&lt;div style=&quot;float: right; width:315px; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.infoq.com/presentations/Identity-Management-with-Spring-Security&quot;&gt;&lt;img height=&quot;234&quot; alt=&quot;SpringOne 2GX Video: Identity Management with Spring Security&quot; width=&quot;315&quot; border=&quot;0&quot; src=&quot;http://www.springsource.org/files/SpringOne2GX2012IdentityManagementWithSpringSecurity.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+Another session from SpringOne 2GX 2011 gives a detailed guide to &lt;a href=&quot;http://www.infoq.com/presentations/Identity-Management-with-Spring-Security&quot;&gt;Identity Management with Spring Security&lt;/a&gt;. Spring developer and also Cloud Foundry engineer, &lt;a href=&quot;http://blog.springsource.org/author/dsyer/&quot;&gt;Dave Syer&lt;/a&gt;, covers Single Sign On, security standards (including SAML, OpenID, OAuth, SCIM, JWT), how Spring Security can fit in, as well as demoing identity management as a service. Dave has tackled some of the most complex problems possible in enterprise Java and this presentation provides a great guide for developers interested in security identity in distributed environments. 
+&lt;/p&gt;
+
+
+&lt;p&gt;Many thanks to &lt;a href=&quot;http://www.infoq.com&quot;&gt;InfoQ&lt;/a&gt; for coming to Chicago to record so many of the fantastic &lt;a href=&quot;http://www.infoq.com/springone_2gx_2011/&quot;&gt;SpringOne 2GX presentations&lt;/a&gt;.
+&lt;/p&gt;
+
+</description>
+ <comments>http://www.springsource.org/node/3475#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 16 Feb 2012 01:21:00 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3475 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Video: SpringOne 2GX - Native Android Development Practices</title>
+ <link>http://www.springsource.org/node/3474</link>
+ <description>&lt;p&gt; 
+&lt;div style=&quot;float: right; width:316px; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.infoq.com/presentations/Native-Android-Development-Practices&quot;&gt;&lt;img height=&quot;235&quot; alt=&quot;SpringOne 2GX Video: Native Android Development Practices&quot; width=&quot;316&quot; border=&quot;0&quot; src=&quot;http://www.springsource.org/files/SpringOne2GX2012NativeAndroidDevelopment.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+In this popular session from SpringOne 2GX 2011, Spring developer advocate, &lt;a href=&quot;http://blog.springsource.org/author/jolong/&quot;&gt;Josh Long&lt;/a&gt; and Spring engineer, &lt;a href=&quot;http://blog.springsource.org/author/rclarkson/&quot;&gt;Roy Clarkson&lt;/a&gt; discuss &lt;a href=&quot;http://www.infoq.com/presentations/Native-Android-Development-Practices&quot;&gt;native Android development practices&lt;/a&gt; with the Spring framework. The session covers Spring MVC support for device detection, REST implementation for handling device requests and Spring Android support for organizing calls from the mobile client to the server.  
+
+&lt;/p&gt;
+
+
+&lt;p&gt;Many thanks to &lt;a href=&quot;http://www.infoq.com&quot;&gt;InfoQ&lt;/a&gt; for coming to Chicago to record so many of the fantastic &lt;a href=&quot;http://www.infoq.com/springone_2gx_2011/&quot;&gt;SpringOne 2GX presentations&lt;/a&gt;.
+&lt;/p&gt;
+
+</description>
+ <comments>http://www.springsource.org/node/3474#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 16 Feb 2012 01:06:01 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3474 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Video: SpringOne 2GX - Tuning Java for Virtual Environments with EM4J</title>
+ <link>http://www.springsource.org/node/3473</link>
+ <description>&lt;p&gt; 
+&lt;div style=&quot;float: right; width:316px; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.infoq.com/presentations/Tuning-Java-for-Virtual-with-EM4J&quot;&gt;&lt;img height=&quot;236&quot; alt=&quot;SpringOne 2GX Video: Tuning Java for Virtual Environments with EM4J&quot; width=&quot;316&quot; border=&quot;0&quot; src=&quot;http://www.springsource.org/files/SpringOne2GX2012TuningJavaForVirtualEnvironment.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+As datacenters virtualize more and more workloads, it becomes important to understand the potential impact on the Java servers that may be running your applications. At SpringOne 2GX 2011, &lt;a href=&quot;http://blog.springsource.org/author/bcorrie/&quot;&gt;Ben Corrie&lt;/a&gt; provided a thorough &lt;a href=&quot;http://www.infoq.com/presentations/Tuning-Java-for-Virtual-with-EM4J&quot;&gt;overview of Java memory management&lt;/a&gt;, how things work differently in virtual environments and what you can do about it to avoid problems. This includes a practical introduction to Elastic Memory for Java (EM4J) that is a feature of the &lt;a href=&quot;http://www.vmware.com/products/application-platform/vfabric/overview.html&quot;&gt;VMware vFabric platform&lt;/a&gt;. 
+&lt;/p&gt;
+
+
+&lt;p&gt;Many thanks to &lt;a href=&quot;http://www.infoq.com&quot;&gt;InfoQ&lt;/a&gt; for coming to Chicago to record so many of the fantastic &lt;a href=&quot;http://www.infoq.com/springone_2gx_2011/&quot;&gt;SpringOne 2GX presentations&lt;/a&gt;.
+&lt;/p&gt;
+
+</description>
+ <comments>http://www.springsource.org/node/3473#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 16 Feb 2012 00:42:48 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3473 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Data MongoDB 1.0.1 GA released</title>
+ <link>http://www.springsource.org/node/3472</link>
+ <description>&lt;p&gt;On the way to Spring IO conference I&#039;d like to announce the availability of Spring Data MongoDB 1.0.1. It&#039;s mainly a bug fix release covering a few glitches found in the first major release. We&#039;ve fixed some issues in entity mapping, query execution and added a converter for UUIDs out of the box.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Data%20MongoDB&amp;amp;version=1.0.1.RELEASE&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-mongodb/docs/1.0.1.RELEASE/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-mongodb/docs/1.0.1.RELEASE/reference/html/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springframework.org/spring-data/data-mongodb/docs/1.0.1.RELEASE/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The release is available from our Maven repository and from Maven Central as well. To learn more about the project, visit the Spring Data &lt;a href=&quot;http://www.springsource.org/spring-data/mongodb&quot;&gt;MongoDB Page&lt;/a&gt;. Looking forward to your feedback on the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=80&quot;&gt;forum&lt;/a&gt; or in the &lt;a href=&quot;https://jira.springsource.org/browse/DATAMONGO&quot;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3472#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 15 Feb 2012 16:28:47 +0000</pubDate>
+ <dc:creator>ogierke</dc:creator>
+ <guid isPermaLink="false">3472 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Video: Spring Your Application to Cloud Foundry</title>
+ <link>http://www.springsource.org/node/3471</link>
+ <description>&lt;p&gt;If you missed the recent &lt;a href=&quot;http://webinars.cloudfoundry.com/&quot;&gt;Cloud Foundry webinar&lt;/a&gt; that covered Spring development, you can catch the video replay on the &lt;a href=&quot;http://www.youtube.com/user/CloudFoundry&quot;&gt;Cloud Foundry YouTube channel&lt;/a&gt;. In this video, Ramnivas Laddad shows you how to take a real Spring application and target it to Cloud Foundry using both STS and the vmc command line. &lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;object width=&quot;560&quot; height=&quot;349&quot;&gt;
+&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/5UwMw4DNHsQ?version=3&amp;amp;hl=en_US&quot; /&gt;
+&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;
+&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/5UwMw4DNHsQ?version=3&amp;amp;hl=en_US&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;560&quot; height=&quot;349&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;Be sure to thumbs up the presentation if you find it useful and &lt;a href=&quot;http://www.youtube.com/subscription_center?adduser=SpringSourceDev&quot;&gt;subscribe to the SpringSourceDev channel&lt;/a&gt; to see other recordings and screencasts.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3471#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 15 Feb 2012 01:45:49 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3471 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This Week in Spring: February 14th, 2012</title>
+ <link>http://www.springsource.org/node/3470</link>
+ <description>&lt;P&gt; Welcome to another installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;. Lot&#039;s of good content to go over, this week, so let&#039;s get to it.
+
+  Also: if you&#039;re in Stockholm, Sweden attending the &lt;A href = &quot;http://www.jfokus.com&quot;&gt;JFokus&lt;/A&gt; Java conference, be sure to stop by the VMWare booth to say hi or have your questions answered about &lt;a href = &quot;http://www.springsource.org&quot;&gt;Spring&lt;/a&gt;,
+ &lt;a href = &quot;http://www.cloudfoundry.org&quot;&gt;Cloud Foundry&lt;/a&gt;, and &lt;a href = &quot;http://www.vmware.com/products/application-platform/vfabric/overview.html&quot;&gt;vFabric&lt;/a&gt;.
+&lt;/P&gt;
+
+&lt;OL&gt;
+	&lt;LI&gt; Alan Stewart has announced the &lt;a href = &quot;http://blog.springsource.org/2012/02/10/spring-roo-1-2-1-release-available/&quot;&gt;release of Spring Roo 1.2.1&lt;/a&gt;, which includes fixes for multi-module Maven projects,
+		&lt;EM&gt;huge&lt;/EM&gt; performance enhancements, and updated support for  PrimeFaces 3.1 and Google App Engine 1.6.2.
+		
+		
+		&lt;/LI&gt;
+		
+		
+	&lt;LI&gt; Oliver Gierke has announced that &lt;a href = &quot;http://www.springsource.org/node/3469&quot;&gt;JPA 1.1.0 RC1 and 1.0.3 GA have been released&lt;/a&gt;. Among the many new features, the release includes support for locking, 
+		 &lt;code&gt;@IdClass&lt;/code&gt; in entities,
+		Support for &lt;code&gt;LessThanEqual&lt;/code&gt; and  &lt;code&gt;GreaterThanEquals&lt;/code&gt;, &lt;code&gt;True&lt;/code&gt;/&lt;code&gt;False&lt;/code&gt; keywords in query methods,
+		added CDI integration for Spring Data repositories,
+  and improved parameter binding for derived queries for null values.
+		 &lt;/LI&gt;
+
+	&lt;LI&gt;
+ 	In this video from &lt;a href = &quot;http://www.springone2gx.com&quot;&gt;SpringOne 2GX 2011&lt;/a&gt;,	
+	    &lt;a href = &quot;http://blog.springsource.org/author/jolong/&quot;&gt;Josh Long&lt;/a&gt; and 
+        &lt;a href = &quot;http://blog.springsource.org/author/rclarkson/&quot;&gt;Roy Clarkson&lt;/a&gt; introduce 
+		&lt;a href = &quot;http://www.infoq.com/presentations/Native-Android-Development-Practices&quot;&gt;Native Android Development Practices&lt;/a&gt; 
+		using the &lt;A href = &quot;http://www.springsource.org/spring-android&quot;&gt;Spring Android&lt;/A&gt; project. 				
+		&lt;/LI&gt;
+		&lt;LI&gt;
+			
+			In another video from SpringOne2GX, &lt;a href = &quot;http://blog.springsource.org/author/dsyer/&quot;&gt;
+			Dr. David Syer&lt;/A&gt; discusses &lt;a href = &quot;http://www.infoq.com/presentations/Identity-Management-with-Spring-Security&quot;&gt;identity management with Spring Security&lt;/a&gt;. He covers Single Sign On, security standards (including SAML, OpenID, OAuth, SCIM, JWT), how Spring Security can fit in&lt;/a&gt;, as well as demoing IdM as a service.  
+						
+		 &lt;/LI&gt;
+	&lt;LI&gt; 
+       Last week, Jason Weathersby and &lt;a href=&quot;http://blog.springsource.org/author/jolong/&quot;&gt;Josh Long&lt;/a&gt; put together an introduction to using &lt;a href = &quot;http://www.springsource.org/BusinessIntelligenceWithSpringAndBIRT&quot;&gt;BIRT and Spring together&lt;/a&gt;.
+BIRT&#039;s a fantastic technology for doing business intelligence and reporting, and Spring already knows about your data, so connecting them is a natural next step. Enjoy!        	
+	&lt;/LI&gt;
+	  
+		&lt;LI&gt; &lt;a href = &quot;http://blog.codecentric.de/en/author/tobias-flohre/&quot;&gt;Tobias Flohre&lt;/a&gt; is back with not one, but &lt;EM&gt;two&lt;/EM&gt; great posts on Spring! The first, a follow up to his series &lt;a href = &quot;http://blog.codecentric.de/en/2012/02/a-business-component-architecture-with-spring-3-03-1-part-3-properties/&quot;&gt;on business component architectures introduces  properties and their use in Spring 3.1&lt;/a&gt;. 
+			
+			The second post, on &lt;a href = &quot;http://blog.codecentric.de/en/2012/02/spring-data-mongodb-geospatial-queries/&quot;&gt;geospatial queries in Spring Data MongoDB&lt;/a&gt;, is a &lt;EM&gt;fantastic&lt;/EM&gt; look at 	
+			both geolocation, and the specific application  from &lt;A href =&quot;http://www.springsource.org/spring-data/mongodb&quot;&gt;Spring Data MongoDB&lt;/a&gt;.
+				  &lt;/LI&gt;
+		
+		&lt;LI&gt; The Java CodeGeeks have a great post on &lt;a href = &quot;http://www.javacodegeeks.com/2012/02/oauth-with-spring-security.html&quot;&gt;securing your resources with   Spring Security OAuth&lt;/a&gt;. 
+			 This  post is &lt;EM&gt;not&lt;/EM&gt; to be missed! 
+			&lt;/LI&gt;
+		
+        	&lt;LI&gt; The YouTube channel, &lt;A href= &quot;http://www.youtube.com/user/springtutorial&quot;&gt;SpringTutorial&lt;/A&gt;, has put together a high-level overview introduction of several vFabric technologies including &lt;a href= &quot;http://www.youtube.com/watch?v=0rQipBeoU44&quot;&gt;Hyperic&lt;/A&gt;, &lt;a href =&quot;http://www.youtube.com/watch?v=VACq59epZRE&amp;feature=related&quot;&gt;tcServer&lt;/a&gt;, and &lt;A href = &quot;http://www.youtube.com/watch?v=7DdoAeLUA_8&amp;feature=related&quot;&gt;GemFire&lt;/a&gt;. Good content, and worth a look for your production needs. 
+		&lt;/LI&gt;
+&lt;/OL&gt;</description>
+ <comments>http://www.springsource.org/node/3470#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 15 Feb 2012 00:44:37 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3470 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Data JPA 1.1.0 RC1 and 1.0.3 GA released</title>
+ <link>http://www.springsource.org/node/3469</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the release of Spring Data JPA 1.1.0 RC1 as well as 1.0.3 GA. The release candidate includes a ton of new features and a variety of bug fixes. Here&#039;s a brief list of the most important ones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for locking&lt;/li&gt;
+&lt;li&gt;Support for @IdClass in entities&lt;/li&gt;
+&lt;li&gt;Support for LessThanEqual and GreaterThanEquals, True/False keywords in query methods&lt;/li&gt;
+&lt;li&gt;Added CDI integration for repositories&lt;/li&gt;
+&lt;li&gt;Improved parameter binding for derived queries for null values&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The CDI integration was contributed by &lt;a href=&quot;https://github.com/DirkMahler&quot;&gt;Dirk Mahler&lt;/a&gt; of &lt;a href=&quot;http://www.buschmais.de&quot;&gt;Buschmais&lt;/a&gt; to a large degree. For a full list of changes see the  &lt;a href=&quot;http://static.springframework.org/spring-data/data-jpa/docs/1.1.0.RC1/changelog.txt&quot;&gt;changelog&lt;/a&gt;. Quite a few of the bugs fixed were back ported so we definitely recommend to upgrade to 1.0.3 as well as playing with the release candidate to help improving the final release. The 1.0.3 GA release can be obtained from Maven central while the release candidate is available via our milestone repository at &lt;a href=&quot;http://repo.springsource.org/libs-milestone&quot;&gt;http://repo.springsource.org/libs-milestone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;1.0.3.RELEASE&lt;/b&gt; - &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cspring-data-jpa&quot;&gt;Maven artifacts&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jpa/docs/1.0.3.RELEASE/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jpa/docs/1.0.3.RELEASE/reference/html/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springframework.org/spring-data/data-jpa/docs/1.0.3.RELEASE/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;1.1.0.RC1&lt;/b&gt; - &lt;a href=&quot;http://repo.springsource.org/libs-milestone/org/springframework/data/spring-data-jpa/1.1.0.RC1&quot;&gt;Maven artifacts&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jpa/docs/1.1.0.RC1/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-jpa/docs/1.1.0.RC1/reference/html/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springframework.org/spring-data/data-jpa/docs/1.1.0.RC1/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3469#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 09 Feb 2012 18:01:48 +0000</pubDate>
+ <dc:creator>ogierke</dc:creator>
+ <guid isPermaLink="false">3469 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Promotion: Save 30% on Spring classes</title>
+ <link>http://www.springsource.org/spring-promo-code</link>
+ <description>&lt;p&gt;SpringSource has launched 7 new Hot Seat promotions for the number one Spring Framework class: Core Spring. If you register by March 01, you can &lt;b&gt;SAVE 30%&lt;/b&gt; on the following Spring classes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 28 - March 02: &lt;a href=&quot;http://www.springsource.com/training/class?classID=115141&quot;&gt;Dublin, Ireland (Rich Web with Spring)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;March 06 - 09: &lt;a href=&quot;http://www.springsource.com/training/class?classID=116691&quot;&gt;Columbia, MD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;March 06 - 09: &lt;a href=&quot;http://www.springsource.com/training/class?classID=116043&quot;&gt;Miami, FL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;March 06 - 09: &lt;a href=&quot;http://www.springsource.com/training/class?classID=116067&quot;&gt;Seattle, WA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;March 06 - 09: &lt;a href=&quot;http://www.springsource.com/training/class?classID=116138&quot;&gt;Budapest, Hungary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;March 13 - 16: &lt;a href=&quot;http://www.springsource.com/training/class?classID=116139&quot;&gt;Belgrade, Serbia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;March 13  - 16: &lt;a href=&quot;http://www.springsource.com/training/class?classID=115363&quot;&gt;Moscow, Russia&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Discount Code: &lt;b&gt;SPLPROMOCLS&lt;/b&gt;&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/spring-promo-code#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 09 Feb 2012 12:56:56 +0000</pubDate>
+ <dc:creator>Mark Baars</dc:creator>
+ <guid isPermaLink="false">3468 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Business Intelligence with Spring and BIRT</title>
+ <link>http://www.springsource.org/node/3467</link>
+ <description>&lt;P&gt; Eclipse’s &lt;a href=&quot;http://eclipse.org/birt/phoenix/&quot;&gt;Business Intelligence and Reporting Tools (BIRT)&lt;/a&gt; project is an open-source project based on the popular Eclipse IDE. In this article, BIRT Evangelist Jason Weathersby and Spring Developer Advocate Josh Long &lt;a href = &quot;http://www.springsource.org/BusinessIntelligenceWithSpringAndBIRT&quot;&gt;introduce BIRT and a Spring integration library&lt;/a&gt; to make it easy for Spring beans and applications to consume, and participate in, BIRT reports. The article covers:
+ &lt;/P&gt;
+&lt;uL&gt;
+ &lt;LI&gt;  Integrating the BIRT engines in Spring MVC&lt;/LI&gt;
+ &lt;LI&gt;  Accessing Spring beans from the BIRT Viewer &lt;/LI&gt;
+ &lt;LI&gt; Using Spring Remoting to access Spring Beans from a BIRT report &lt;/LI&gt;
+&lt;/uL&gt;
+&lt;P&gt;
+Many thanks to Jason Weathersby and the BIRT team for collaborating on this great tutorial and integration.
+&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3467#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 08 Feb 2012 22:59:27 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3467 at http://www.springsource.org</guid>
+</item>
+</channel>
+</rss>
