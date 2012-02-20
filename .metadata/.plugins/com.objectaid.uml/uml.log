@@ -1,1 +1,16 @@
-2012-02-19 12:03:49.254 [Worker-4] INFO    com.objectaid.uml.license.LicenseManager initialize: found license Sequence Diagram 1.0.x - EVAL until 2012-03-20
+2012-02-20 19:04:10.499 [Worker-4] INFO    com.objectaid.uml.license.LicenseManager initialize: found license Sequence Diagram 1.0.x - EVAL until 2012-03-20
+2012-02-20 19:04:11.839 [Worker-6] SEVERE  com.objectaid.uml.UMLException log: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\edu\SimpleDataMediator\SimpleDataMediator\src\com\mediador\lib\classDiagram.ucls.
+com.objectaid.uml.UMLException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\edu\SimpleDataMediator\SimpleDataMediator\src\com\mediador\lib\classDiagram.ucls.
+	at com.objectaid.uml.model.diagram.DiagramFactory.getFileContents(DiagramFactory.java:165)
+	at com.objectaid.uml.model.diagram.DiagramFactory.unmarshal(DiagramFactory.java:124)
+	at com.objectaid.uml.model.DiagramHandle.unmarshalFile(DiagramHandle.java:154)
+	at com.objectaid.uml.model.manage.DiagramManager.add(DiagramManager.java:103)
+	at com.objectaid.uml.model.manage.StartupJob.run(StartupJob.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\edu\SimpleDataMediator\SimpleDataMediator\src\com\mediador\lib\classDiagram.ucls.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.objectaid.uml.model.diagram.DiagramFactory.getFileContents(DiagramFactory.java:162)
+	... 5 more
+
