@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javassist.expr.NewArray"/>
+<fullyQualifiedTypeName name="classes.mediador.com.ecg"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="lib.mediador.com.campoTabela"/>
+<fullyQualifiedTypeName name="lib.mediador.com.localDataSourceInformation"/>
+<fullyQualifiedTypeName name="com.mediador.lib.tipoDado"/>
+<fullyQualifiedTypeName name="gudusoft.gsqlparser.EDbVendor"/>
+<fullyQualifiedTypeName name="gudusoft.gsqlparser.TGSqlParser"/>
+<fullyQualifiedTypeName name="gudusoft.gsqlparser.stmt.TSelectSqlStatement"/>
+<fullyQualifiedTypeName name="gudusoft.gsqlparser.nodes.TResultColumnList"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.mediador.sqlparse.sqlparse"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

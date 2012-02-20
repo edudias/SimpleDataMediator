@@ -17,3 +17,6 @@
 1329675098655	Encapsulate field 'timeout'
 1329675172100	Encapsulate field 'localServer'
 1329675221053	Encapsulate field 'viewLAV'
+1329675735067	Rename package 'lib.mediador.com'
+1329675753537	Rename package 'reescrita.mediador.com'
+1329675771337	Rename package 'sqlparse.mediador.com'
