@@ -8,7 +8,6 @@ INDEX VERSION 1.126+C:\Users\edu\SimpleDataMediator\.metadata\.plugins\org.eclip
 3712787272.index
 946225851.index
 3181320452.index
-2097930294.index
 2660448462.index
 4289399753.index
 1995173708.index
