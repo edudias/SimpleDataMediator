@@ -4699,3 +4699,22 @@ Caused by: java.io.IOException: Could not delete file C:\Users\edu\SimpleDataMed
 	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:380)
 	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:163)
 	... 6 more
+!SESSION 2012-02-20 23:52:41.889 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-02-20 23:59:55.742
+!MESSAGE Could not load repository template extension contributed by org.jboss.tools.common.mylyn with connectorKind jira
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-02-20 23:59:55.757
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-02-20 23:59:55.757
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+
+!ENTRY org.jboss.tools.central 2 0 2012-02-21 00:00:21.633
+!MESSAGE The org.jboss.tools.central.jbossas.quickstart.ticketmonster project example not found
