@@ -4504,3 +4504,217 @@ java.lang.RuntimeException: Cache doesn't contain data for key: org.eclipse.debu
 	at org.eclipse.egit.core.synchronize.GitResourceVariantTreeSubscriber.init(GitResourceVariantTreeSubscriber.java:81)
 	at org.eclipse.egit.ui.internal.synchronize.GitModelSynchronize$2.run(GitModelSynchronize.java:159)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.core 4 4 2012-02-20 19:38:25.326
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at java.lang.String.charAt(Unknown Source)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.writeAllDocumentNames(DiskIndex.java:1010)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:523)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:192)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:774)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:816)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:388)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 4 0 2012-02-20 19:40:15.148
+!MESSAGE Branch failed
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:86)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.BranchOperation.execute(BranchOperation.java:103)
+	at org.eclipse.egit.ui.internal.branch.BranchOperationUI$1.run(BranchOperationUI.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.api.errors.JGitInternalException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:212)
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:84)
+	... 5 more
+Caused by: java.io.IOException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:134)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:92)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:954)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:447)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:380)
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:163)
+	... 6 more
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2012-02-20 19:40:15.149
+!MESSAGE Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:212)
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.BranchOperation.execute(BranchOperation.java:103)
+	at org.eclipse.egit.ui.internal.branch.BranchOperationUI$1.run(BranchOperationUI.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:134)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:92)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:954)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:447)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:380)
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:163)
+	... 6 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2012-02-20 19:42:04.139
+!MESSAGE The current branch is not configured for pull
+!STACK 0
+org.eclipse.jgit.api.errors.InvalidConfigurationException: No value for key branch.branch-reescrita.merge found in configuration
+	at org.eclipse.jgit.api.PullCommand.call(PullCommand.java:189)
+	at org.eclipse.egit.core.op.PullOperation$1.run(PullOperation.java:83)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.PullOperation.execute(PullOperation.java:108)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI.execute(PullOperationUI.java:117)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI$1.run(PullOperationUI.java:92)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2012-02-20 19:44:14.287
+!MESSAGE Branch failed
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:86)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.BranchOperation.execute(BranchOperation.java:103)
+	at org.eclipse.egit.ui.internal.branch.BranchOperationUI$1.run(BranchOperationUI.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.api.errors.JGitInternalException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:212)
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:84)
+	... 5 more
+Caused by: java.io.IOException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:134)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:92)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:954)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:447)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:380)
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:163)
+	... 6 more
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2012-02-20 19:44:14.287
+!MESSAGE Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:212)
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.BranchOperation.execute(BranchOperation.java:103)
+	at org.eclipse.egit.ui.internal.branch.BranchOperationUI$1.run(BranchOperationUI.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:134)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:92)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:954)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:447)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:380)
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:163)
+	... 6 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2012-02-20 19:45:11.918
+!MESSAGE Branch failed
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:86)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.BranchOperation.execute(BranchOperation.java:103)
+	at org.eclipse.egit.ui.internal.branch.BranchOperationUI$1.run(BranchOperationUI.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.api.errors.JGitInternalException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:212)
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:84)
+	... 5 more
+Caused by: java.io.IOException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:134)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:92)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:954)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:447)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:380)
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:163)
+	... 6 more
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2012-02-20 19:45:11.919
+!MESSAGE Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:212)
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.BranchOperation.execute(BranchOperation.java:103)
+	at org.eclipse.egit.ui.internal.branch.BranchOperationUI$1.run(BranchOperationUI.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:134)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:92)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:954)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:447)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:380)
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:163)
+	... 6 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2012-02-20 19:46:35.109
+!MESSAGE Branch failed
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:86)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.BranchOperation.execute(BranchOperation.java:103)
+	at org.eclipse.egit.ui.internal.branch.BranchOperationUI$1.run(BranchOperationUI.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.api.errors.JGitInternalException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:212)
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:84)
+	... 5 more
+Caused by: java.io.IOException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:134)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:92)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:954)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:447)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:380)
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:163)
+	... 6 more
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2012-02-20 19:46:35.109
+!MESSAGE Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:212)
+	at org.eclipse.egit.core.op.BranchOperation$1.run(BranchOperation.java:84)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.BranchOperation.execute(BranchOperation.java:103)
+	at org.eclipse.egit.ui.internal.branch.BranchOperationUI$1.run(BranchOperationUI.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: Could not delete file C:\Users\edu\SimpleDataMediator\.metadata\.plugins\com.objectaid.uml\uml.log
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:134)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:92)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:954)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:447)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:380)
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:163)
+	... 6 more
+!SESSION 2012-02-20 23:52:41.889 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-02-20 23:59:55.742
+!MESSAGE Could not load repository template extension contributed by org.jboss.tools.common.mylyn with connectorKind jira
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-02-20 23:59:55.757
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2012-02-20 23:59:55.757
+!MESSAGE Could not load repository template extension contributed by com.springsource.sts.ide.ui with connectorKind jira
+
+!ENTRY org.jboss.tools.central 2 0 2012-02-21 00:00:21.633
+!MESSAGE The org.jboss.tools.central.jbossas.quickstart.ticketmonster project example not found
