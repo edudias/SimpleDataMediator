@@ -2,13 +2,21 @@
 <section name="Workbench">
 	<section name="SynchronizeViewSettings">
 		<item value="false" key="linkWithEditor"/>
-		<item value="1329768259943" key="lastactiveparticipant_sec_id"/>
+		<item value="1329772671512" key="lastactiveparticipant_sec_id"/>
 		<item value="org.eclipse.egit.ui.modelCompareParticipant" key="lastactiveparticipant_id"/>
-		<section name="org.eclipse.egit.ui.modelCompareParticipant.1329768259943">
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1329772152190">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1329772671512">
 		</section>
 		<section name="org.eclipse.egit.ui.modelCompareParticipant.1329669070827">
 		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1329768259943">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1329772124515">
+		</section>
 		<section name="org.eclipse.egit.ui.modelCompareParticipant.1329767317955">
 		</section>
+	</section>
+	<section name="SynchronizeWizard">
 	</section>
 </section>
