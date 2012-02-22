@@ -1,16 +1,25 @@
 package com.mediador.lib;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class campoTabela {
+	
+	private Integer campoTabelaID;
 	private String nomeCampoTabela;
 	private tipoDado tipoCampoTabela;
 	private Integer tamanhoCampo;
 	private Boolean pk;
 	private Boolean fk;
 	
-	public campoTabela(){
-		
+	@Id
+	public Integer getCampoTabelaID() {
+		return campoTabelaID;
 	}
-	
+	public void setCampoTabelaID(Integer campoTabelaID) {
+		this.campoTabelaID = campoTabelaID;
+	}
 	public String getNomeCampoTabela() {
 		return nomeCampoTabela;
 	}

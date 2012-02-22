@@ -20,3 +20,6 @@
 1329675735067	Rename package 'lib.mediador.com'
 1329675753537	Rename package 'reescrita.mediador.com'
 1329675771337	Rename package 'sqlparse.mediador.com'
+1329861325696	Move file
+1329861379276	Move file
+1329861851207	Encapsulate field 'campoTabelaID'

@@ -6,6 +6,21 @@
  <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
  <language>en</language>
 <item>
+ <title>Spring Social LinkedIn 1.0.0.RC1 Released</title>
+ <link>http://www.springsource.org/spring-social/news/spring-social-linkedin-1.0.0.rc1-released</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;We are happy to announce that the first release candidate of Spring Social LinkedIn is now available!&lt;/p&gt;
+&lt;p&gt;Thanks to community contributions, the Spring Social LinkedIn project now has a complete API binding in addition to connection support through Spring Social&#039;s service provider connection framework.&lt;/p&gt;
+&lt;p&gt;To get Spring Social LinkedIn, download the &lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Social%20LinkedIn&quot; target=&quot;_blank&quot;&gt;release distribution&lt;/a&gt; or simply add the &lt;a href=&quot;http://static.springsource.org/spring-social-linkedin/docs/1.0.x/reference/html/overview.html#overview-howtoget&quot; target=&quot;_blank&quot;&gt;Maven artifacts&lt;/a&gt; to your project.&lt;/p&gt;
+&lt;p&gt;As we push toward a GA release, we would like to hear what you think of the RC1 release. Give feedback in the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?82-Social&quot; target=&quot;_blank&quot;&gt;forum&lt;/a&gt; or, if you have any suggestions or find any bugs, please post them in the &lt;a href=&quot;https://jira.springsource.org/browse/SOCIALLI&quot; target=&quot;_blank&quot;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/spring-social/news/spring-social-linkedin-1.0.0.rc1-released#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 21 Feb 2012 18:32:42 +0000</pubDate>
+ <dc:creator>Craig Walls</dc:creator>
+ <guid isPermaLink="false">3477 at http://www.springsource.org</guid>
+</item>
+<item>
  <title>Spring Framework 3.1.1 Released</title>
  <link>http://www.springsource.org/node/3476</link>
  <description>&lt;p&gt;The first maintenance release in the Spring 3.1.x line is now available via Maven Central, the &lt;a href=&quot;http://repo.springsource.org/release&quot;&gt;SpringSource repository&lt;/a&gt;, or for direct download from our &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Framework&amp;amp;version=3.1.1.RELEASE&quot;&gt;community download page&lt;/a&gt;.  This release includes many &lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10000&amp;amp;version=12706&quot;&gt;important bugfixes and minor improvements&lt;/a&gt; and is a recommended upgrade.&lt;/p&gt;
@@ -216,25 +231,6 @@ BIRT&#039;s a fantastic technology for doing business intelligence and reporting
  <pubDate>Thu, 09 Feb 2012 12:56:56 +0000</pubDate>
  <dc:creator>Mark Baars</dc:creator>
  <guid isPermaLink="false">3468 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>Business Intelligence with Spring and BIRT</title>
- <link>http://www.springsource.org/node/3467</link>
- <description>&lt;P&gt; Eclipse’s &lt;a href=&quot;http://eclipse.org/birt/phoenix/&quot;&gt;Business Intelligence and Reporting Tools (BIRT)&lt;/a&gt; project is an open-source project based on the popular Eclipse IDE. In this article, BIRT Evangelist Jason Weathersby and Spring Developer Advocate Josh Long &lt;a href = &quot;http://www.springsource.org/BusinessIntelligenceWithSpringAndBIRT&quot;&gt;introduce BIRT and a Spring integration library&lt;/a&gt; to make it easy for Spring beans and applications to consume, and participate in, BIRT reports. The article covers:
- &lt;/P&gt;
-&lt;uL&gt;
- &lt;LI&gt;  Integrating the BIRT engines in Spring MVC&lt;/LI&gt;
- &lt;LI&gt;  Accessing Spring beans from the BIRT Viewer &lt;/LI&gt;
- &lt;LI&gt; Using Spring Remoting to access Spring Beans from a BIRT report &lt;/LI&gt;
-&lt;/uL&gt;
-&lt;P&gt;
-Many thanks to Jason Weathersby and the BIRT team for collaborating on this great tutorial and integration.
-&lt;/p&gt;</description>
- <comments>http://www.springsource.org/node/3467#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Wed, 08 Feb 2012 22:59:27 +0000</pubDate>
- <dc:creator>Josh Long</dc:creator>
- <guid isPermaLink="false">3467 at http://www.springsource.org</guid>
 </item>
 </channel>
 </rss>

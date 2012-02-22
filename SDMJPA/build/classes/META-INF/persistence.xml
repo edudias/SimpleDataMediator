@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="SDMJPA">
+		<class>com.mediador.jpa.TbCampo</class>
+		<class>com.mediador.jpa.TbCampoEntidadeGlobal</class>
+		<class>com.mediador.jpa.TbCampoEntidadeLocal</class>
+		<class>com.mediador.jpa.TbCampoGlobalLocal</class>
+		<class>com.mediador.jpa.TbConfigDatasourceLocal</class>
+		<class>com.mediador.jpa.TbEntidadeGlobal</class>
+		<class>com.mediador.jpa.TbEntidadeGlobalLocal</class>
+		<class>com.mediador.jpa.TbEntidadeLocal</class>
+		<class>com.mediador.jpa.TbFormulaTransformacao</class>
+		<class>com.mediador.jpa.TbTipoDado</class>
+		<class>com.mediador.jpa.TbViewGav</class>
+		<class>com.mediador.jpa.TbViewLav</class>
+	</persistence-unit>
+</persistence>

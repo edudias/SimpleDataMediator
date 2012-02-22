@@ -6,7 +6,7 @@
 	
 	<link>http://blog.springsource.org</link>
 	<description>The voice of SpringSource</description>
-	<lastBuildDate>Sat, 11 Feb 2012 02:24:56 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Feb 2012 09:50:13 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -22,7 +22,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=10568</guid>
 		<description>The Spring Roo team is pleased to announce the availability 1.2.1.RELEASE.  This is the first maintenance release for 1.2 and includes fixes for a number of issues in multi-module Maven support and JSF/PrimeFaces.  It also has  performance enhancements and has been updated to support the recent release of PrimeFaces 3.1 and Google App Engine 1.6.2.  &lt;a href="http://blog.springsource.org/2012/02/10/spring-roo-1-2-1-release-available/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/JL6WRAnodUI" height="1" width="1"/&gt;</description>
 		<wfw:commentRss>http://blog.springsource.org/2012/02/10/spring-roo-1-2-1-release-available/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+		<slash:comments>5</slash:comments>
 		<feedburner:origLink>http://blog.springsource.org/2012/02/10/spring-roo-1-2-1-release-available/</feedburner:origLink></item>
 		<item>
 		<title>Spring Integration 2.1 is now GA</title>
@@ -132,7 +132,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=10327</guid>
 		<description>Spring Integration scripting support, available in the 2.1 release, builds upon the Groovy scripting support introduced in 2.0.  If you are familiar with Spring Integration, consider scripting support as another tool in your toolbox that you will find useful in certain situations.  If you have existing code written in languages such as Groovy, Python, Ruby,  &lt;a href="http://blog.springsource.org/2011/12/08/spring-integration-scripting-support-part-1/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/DZz5A961zDI" height="1" width="1"/&gt;</description>
 		<wfw:commentRss>http://blog.springsource.org/2011/12/08/spring-integration-scripting-support-part-1/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
+		<slash:comments>3</slash:comments>
 		<feedburner:origLink>http://blog.springsource.org/2011/12/08/spring-integration-scripting-support-part-1/</feedburner:origLink></item>
 		<item>
 		<title>Countdown to Grails 2.0: Persistence</title>
@@ -146,7 +146,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=10292</guid>
 		<description>It&amp;#039;s been a while since the last Countdown blog post, but the release of 2.0.0.RC3 gives me a good reason to write another. In the last post, I focused on database migration and how we are standardising on the new Database Migration Plugin. I&amp;#039;ll be continuing on the theme of persistence here and introducing several  &lt;a href="http://blog.springsource.org/2011/12/05/countdown-to-grails-2-0-persistence/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/ie4TGD6ORcM" height="1" width="1"/&gt;</description>
 		<wfw:commentRss>http://blog.springsource.org/2011/12/05/countdown-to-grails-2-0-persistence/feed/</wfw:commentRss>
-		<slash:comments>5</slash:comments>
+		<slash:comments>6</slash:comments>
 		<feedburner:origLink>http://blog.springsource.org/2011/12/05/countdown-to-grails-2-0-persistence/</feedburner:origLink></item>
 	</channel>
 </rss>
